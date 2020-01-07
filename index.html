@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="random dog images assignment">
+    <title>Random Dog Images - API Assignment</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dog API Assignment</h1>
+        <form>
+            <fieldset>
+                <div>
+                    <legend>How many dog images would you like?</legend>
+                    <input type="number" id="dogs" name="dogs" min="1" max="50" value="3" required>
+                    <input type="submit" value="Submit">
+                </div>
+            </fieldset>
+        </form>
+        <section class="results hidden">
+            <h2>Here are the following dog images:</h2>
+            <div class="results-img"></div>
+        </section>
+    </div>  
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
